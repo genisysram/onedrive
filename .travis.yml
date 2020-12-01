@@ -12,6 +12,8 @@ env:
   - ARCH=x32
   - ARCH=arm32
   - ARCH=arm64
+  - ARCH=ppc64le
+  
 
 script:
   - "bash -ex .travis-ci.sh"
